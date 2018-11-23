@@ -12,7 +12,9 @@ This example has these dependencies:
 * [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken)
 * All of the npm packages needed will be installed from the package.json file.
 
-To install run `npm install`, to start the server `node .`
+YOu must first have Node.js installed.
+
+To install the dependencies run `npm install`, to start the server `node .`
 
 To test the routes use [Postman](https://www.getpostman.com/)
 
