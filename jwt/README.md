@@ -12,7 +12,7 @@ This example has these dependencies:
 * [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken)
 * All of the npm packages needed will be installed from the package.json file.
 
-YOu must first have Node.js installed.
+You must first have Node.js installed.
 
 To install the dependencies run `npm install`, to start the server `node .`
 
