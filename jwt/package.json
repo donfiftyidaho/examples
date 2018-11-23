@@ -1,0 +1,31 @@
+{
+  "name": "jwt",
+  "version": "1.0.0",
+  "description": "jwt sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donfiftyidaho/examples.git"
+  },
+  "keywords": [
+    "js",
+    "node",
+    "jwt"
+  ],
+  "author": "Don Stefani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donfiftyidaho/examples/issues"
+  },
+  "homepage": "https://github.com/donfiftyidaho/examples#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.4.0"
+  }
+}
