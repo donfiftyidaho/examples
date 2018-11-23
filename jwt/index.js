@@ -9,6 +9,7 @@ const PORT = 8888;
 const jwtCheck = expressjwt({    
   secret: "mykey"
 });
+
 // some data to use
 const users = [
 	{id: 1, username: 'clarkKent', password: 'superman'},
@@ -21,6 +22,12 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
+/**
+This is a very simple use of the cors package, in a production
+setting you would want to configure cors mor extensivly.
+I put this here to keep it in mind for future use.
+https://github.com/expressjs/cors
+*/
 app.use(cors());
 
 // sample route - GET the time - no JWT needed
@@ -53,6 +60,7 @@ app.post('/login', (req, res) => {
   		return u.username === req.body.username && u.password === req.body.password;
 	});
 
+	// generate and send the JWT in reponse
 	const token = jwt.sign({
 	  sub: user.id,
 	  username: user.username
