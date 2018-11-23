@@ -14,7 +14,7 @@ This example has these dependencies:
 
 You must first have Node.js installed.
 
-To install the dependencies run `npm install`, to start the server `node .`
+To install the dependencies run `npm install` inside the `jwt` directory, to start the server run `node .`
 
 To test the routes use [Postman](https://www.getpostman.com/)
 
